@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    description: A clone of a Snowflake database
+    database: raw
+    schema: jaffle_shop
+    tables:
+      - name: customers
+        description: This is customer detail table which shows one row per each customer
+      - name: orders
+        description: Raw orders data
+      
